@@ -17,7 +17,8 @@
 
 <br >
 
-适配了[中文hubert](https://github.com/TencentGameMate/chinese_speech_pretrain)，会自动下载
+适配了[中文hubert](https://github.com/TencentGameMate/chinese_speech_pretrain)，会自动下载  
+RVC v2目前仅40k模型可用
 # 启动
 
 ## Windows
