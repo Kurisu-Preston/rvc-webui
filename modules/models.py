@@ -21,9 +21,9 @@ AUDIO_OUT_DIR = opts.output_dir or os.path.join(ROOT_DIR, "outputs")
 
 EMBEDDINGS_LIST = {
     # "hubert_base": ("hubert_base.pt", "hubert_base", "local"),
-    "hubert-base-japanese": (
-        "rinna_hubert_base_jp.pt",
-        "hubert-base-japanese",
+    "hubert-base-chinese": (
+        "chinese-hubert-base-fairseq-ckpt.pt",
+        "hubert-base-chinese",
         "local",
     ),
     "contentvec": ("checkpoint_best_legacy_500.pt", "contentvec", "local"),

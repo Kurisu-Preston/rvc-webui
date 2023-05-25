@@ -75,8 +75,8 @@ def download_models():
     # japanese-hubert-base (Fairseq)
     # from official repo
     # NOTE: change filename?
-    hubert_jp_url = f"https://huggingface.co/rinna/japanese-hubert-base/resolve/main/fairseq/model.pt"
-    out = os.path.join(MODELS_DIR, "embeddings", "rinna_hubert_base_jp.pt")
+    hubert_jp_url = f"https://huggingface.co/TencentGameMate/chinese-hubert-base/resolve/main/chinese-hubert-base-fairseq-ckpt.pt"
+    out = os.path.join(MODELS_DIR, "embeddings", "chinese-hubert-base-fairseq-ckpt.pt")
     if not hash_check(hubert_jp_url, out):
         tasks.append(
             (
