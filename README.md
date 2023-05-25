@@ -17,7 +17,7 @@
 
 <br >
 
-适配了[`中文hubert`](https://github.com/TencentGameMate/chinese_speech_pretrain)，会自动下载
+适配了[中文hubert](https://github.com/TencentGameMate/chinese_speech_pretrain)，会自动下载
 # 启动
 
 ## Windows
