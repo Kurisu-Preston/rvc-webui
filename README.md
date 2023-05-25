@@ -12,40 +12,28 @@
 <div align="center">
 <p>
 
-[日本語](README-ja.md) | [English](README.md)
-
 </p>
 </div>
 
 <br >
 
-# Launch
+# 启动
 
 ## Windows
-Double click `webui-user.bat` to start the webui.
+双击 `webui-user.bat` .
 
 ## Linux or Mac
-Run `webui.sh` to start the webui.
+运行 `webui.sh` .
 
 <br >
 
 ```
-Tested environment: Windows 10, Python 3.10.9, torch 2.0.0+cu118
+Tested environment: Windows 11, Python 3.10.9, torch 2.0.0+cu118
 ```
 
 <br >
 
-# Troubleshooting
-
-## `error: Microsoft Visual C++ 14.0 or greater is required.`
-
-Microsoft C++ Build Tools must be installed.
-
-### Step 1: Download the installer
-[Download](https://visualstudio.microsoft.com/ja/thank-you-downloading-visual-studio/?sku=BuildTools&rel=16)
-
-### Step 2: Install `C++ Build Tools`
-Run the installer and select `C++ Build Tools` in the `Workloads` tab.
+# fairseq必备的环境请自行安装（也可以从其他包里复制fairseq相关依赖）
 
 <br >
 
